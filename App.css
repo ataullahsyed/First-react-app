@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Righteous&display=swap');
+
+
+:root {
+  --primary-color: #4682A9;
+  --secondary-color: #dc004e;
+  --background-color: #f5f5f5;
+  --text-color: #333;
+  --error-color: #f44336;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.logo-img{
+  height: 100px;
+  width: 100px;
+  background-color: #1976d2;
+  border-radius: 50%;
+}
+
+.head {
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+  background-color: var(--background-color);
+  padding: 10px;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #FD8D14;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #ff5500;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button[type='submit'] {
+  background-color: var(--primary-color);
+}
+
+button[type='submit']:hover{
+  background-color: rgb(47, 157, 157);
+}
+
+.success-message,
+.error-message {
+  margin: 10px 0;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+}
+
+.error-message {
+  color: var(--error-color);
+}
+
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+  }
+}
+
+footer{
+  font-family: 'Libre Baskerville', serif;
+  font-size: small;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 0%;
+}
